@@ -1,7 +1,11 @@
-export default function LandingPage() {
-    return (
-        <div>
-            <h1>LandingPage</h1>
-        </div>
-    )
+import React from 'react'
+import  Header  from '../../components/Header/Header'
+import './globalStyle.css'
+export const LandingPage = () => {
+  return (
+    <div><Header/></div>
+
+  )
 }
+
+export default LandingPage
