@@ -1,11 +1,11 @@
 import React from 'react'
 import S from './header.module.css'
-// import PlusIcon from '../../../public/icon/plusIcon.svg'
+import PlusIcon from '../../assets/PlusIcon'
 export const Header = () => {
   return (
   <header className = {S.header}>
     <h1 className = {S.logo}>Finanças +</h1>
-   {/* <img src={PlusIcon} alt="" /> */}
+   <PlusIcon fill={'#ffb200'}/>
     <nav>
         <ul className={S.menu}>
             <li><a className={S.link} href="">Home</a></li>
