@@ -1,9 +1,11 @@
 import React from 'react'
-import S from './Header.module.css'
+import S from './header.module.css'
+// import PlusIcon from '../../../public/icon/plusIcon.svg'
 export const Header = () => {
   return (
   <header className = {S.header}>
     <h1 className = {S.logo}>Finanças +</h1>
+   {/* <img src={PlusIcon} alt="" /> */}
     <nav>
         <ul className={S.menu}>
             <li><a className={S.link} href="">Home</a></li>

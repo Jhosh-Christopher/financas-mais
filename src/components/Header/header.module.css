@@ -23,7 +23,7 @@
 }
 
 .link{
-    color: var(--blue-500, #457B9D);
+    color: #457B9D;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
